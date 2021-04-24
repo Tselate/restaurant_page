@@ -15,12 +15,11 @@ body {
 }
 
 .header {
-    background: black;
-    opacity: 50%;
+    position: relative;
+    background:rgba(0, 0, 0, 0.7);
     color: goldenrod;
     text-align: center;
     font-size: 60px;
-    margin: 10px;
 }
 
 .tabindex {
@@ -29,46 +28,45 @@ body {
 
 .tablink {
     color: goldenrod;
-    font-size: 30px;
+    font-size: large;
     text-align: center;
-    padding: 10px;
-    background-color: transparent;
-    margin: 3px;
+    padding: 3%;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 7% 1%;
     border: none;
 } 
 
 .tablink:hover {
     cursor: pointer;
     text-decoration: underline;  
+    background: black;
 }
 
 .dominant {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 10%;
     right: 10%;
     bottom: 10%;
     padding: 5%;
     margin-top: 0%;
-    background: rgba(0, 0, 0, 0.7)
-
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .welcome {
-   font-size: 40px;
+   font-size: 19px;
    font-family: 'Lobster Two', cursive;
-   width: 80%;
-   padding: 10%;
+   width: 100%;
+   padding: 4%;
    color: goldenrod;
    margin-top: 5%;
-   margin-left: 5%;
+   margin-left: -1%;
 }
 
 .order {
-    font-size: 40px;
+    font-size: 20px;
     padding: 4%;
-    margin-left: 30%;
-    margin-bottom: 10%;
+    margin: 5% 0 10% 25%;
     background: black;
     border-radius: 50px;
     color: goldenrod;
@@ -79,15 +77,33 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     height: 50%;
-    margin-left: 12%;
+    margin-left: 1%;
+    color: rgba(0, 0, 0, 0);
 }
 
 .dominant_two {
-    position: relative;
-    top: 10%;
-    font-size: 90px;
-    background: turquoise;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    padding: 5%;
+    margin-top: 0%;
+    background: rgba(0, 0, 0, 0.7);
+}
 
+.menu-title {
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lobster Two';
+    text-decoration: underline;
+}
+
+.menu-items {
+    color: goldenrod;
+    font-size: 20px;
+    padding: 5px 8px;
 }
 
 .dominant_three {
