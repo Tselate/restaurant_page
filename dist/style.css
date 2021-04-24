@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*{
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(modern-plate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.header {
+    background: black;
+    opacity: 50%;
+    color: goldenrod;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.tabindex {
+    text-align: center;
+}
+
+.tablink {
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    margin: 3px;
+    border: none;
+} 
+
+.tablink:hover {
+    cursor: pointer;
+    text-decoration: underline;  
+}
+
+.dominant {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    padding: 5%;
+    margin-top: 0%;
+    background: rgba(0, 0, 0, 0.7)
+
+}
+
+.welcome {
+   font-size: 40px;
+   font-family: 'Lobster Two', cursive;
+   width: 80%;
+   padding: 10%;
+   color: goldenrod;
+   margin-top: 5%;
+   margin-left: 5%;
+}
+
+.order {
+    font-size: 40px;
+    padding: 4%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    background: black;
+    border-radius: 50px;
+    color: goldenrod;
+}
+
+.eat {
+    background-image: url(enebla.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin-left: 12%;
+}
+
+.dominant_two {
+    position: relative;
+    top: 10%;
+    font-size: 90px;
+    background: turquoise;
+
+}
+
+.dominant_three {
+
+}
+
+
+
